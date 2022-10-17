@@ -19,7 +19,8 @@ class Queue {
     }
 
     getUnderlyingList() {
-        return this.items.length;
+        throw new NotImplementedError('Not implemented');
+        // remove line with error and write your code here
     }
 
     enqueue(value) {
